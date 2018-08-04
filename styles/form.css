@@ -1,0 +1,61 @@
+body {
+    width: 350px;
+    padding: 1.5rem;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75em;
+    text-align: center;
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+    border-bottom: 2px solid #393E41;
+    color: #393E41;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    padding: .5rem 0 .25rem;
+    color: #393E41;
+}
+input[type=text] {
+    border: 2px solid #DDD;
+    border-radius: 5px;
+    padding: .5rem .5rem;
+    font-size: .85em;
+    outline: none;
+    color: #393E41;
+}
+textarea {
+    flex: 1;
+    border: 2px solid #DDD;
+    border-radius: 5px;
+    padding: .5rem .5rem;
+    font-size: .85em;
+    resize: none;
+    outline: none;
+    color: #393E41;
+}
+.createButton, #cancelButton {
+    font-size: .75rem;
+    padding: .5rem .75rem;
+    margin-top: .25rem;
+    border-radius: 5px;
+    border: 2px solid #DDD;
+    outline: none;
+    cursor: pointer;
+    transition: all .25s ease;
+    color: #393E41;
+}
+#cancelButton {
+    width: 100%;
+}
+.createButton:hover {
+    background: #44AF69;
+    color: white;
+}
+#cancelButton:hover {
+    background: #DE3C4B; 
+    color: white;
+}
